@@ -1,0 +1,896 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2026-03-24 22:54:15",
+    "containerVersion": {
+        "path": "accounts/6004265998/containers/247296172/versions/0",
+        "accountId": "6004265998",
+        "containerId": "247296172",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6004265998/containers/247296172",
+            "accountId": "6004265998",
+            "containerId": "247296172",
+            "name": "00 decorate link URL for improved campaign measurement",
+            "publicId": "GTM-MKQT74WH",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1774386277718",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004265998/containers/247296172/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-MKQT74WH"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "tagId": "9",
+                "name": "Parent write UTMs to session cookies",
+                "type": "cvt_247296172_8",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "gad_source",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "igshid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "li_fat_id",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_medium",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "dclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ttclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_creative_format",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ScCID",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ScCid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "persistentCookieExpires",
+                        "value": "365"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_content",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fbclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_campaign",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ttcid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "rootDomain",
+                        "value": "{{Root Domain}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDuration",
+                        "value": "sessionCookie"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "twclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "epic",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "srsltid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_term",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_id",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "gclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_source_platform",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_marketing_tactic",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "gbraid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "uriDecode",
+                        "value": "No"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdt_cid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "gclsrc",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "msclkid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_source",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "wbraid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "cid",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1774381238878",
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "tagId": "12",
+                "name": "Parent GA4 Initialization",
+                "type": "googtag",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "{{GA4 Measurement Stream ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "configSettingsVariable",
+                        "value": "{{Parent Google Tag Shared Configuration Settings}}"
+                    }
+                ],
+                "fingerprint": "1774381148876",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "setupTag": [
+                    {
+                        "tagName": "Parent write UTMs to session cookies",
+                        "stopOnSetupFailure": true
+                    }
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "tagId": "16",
+                "name": "Parent decorate URL link with _ga cookie name and value",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n(function() {\n\n  // Get _ga client id\n  function getGAClientId() {\n    var cookies = document.cookie;\n    var regex = /(?:_ga=)(?:GA\\d\\.\\d\\.)?([^;]*)/;\n    var match = cookies.match(regex);\n    if (match && match.length > 1) { return match[1]; } else { return null; }\n  }\n  var clientId = getGAClientId();\n\n  // Define the named value pairs to decorate onto URLs\n  var decorationPairs = [ { name: '_ga', value: clientId } ];\n\n  if (decorationPairs.length === 0) return;\n\n  // Extract hostname from a url string\n  function getHostname(url) {\n    var match = url.match(/^https?:\\/\\/([^/?#]+)/i);\n    return match ? match[1].toLowerCase() : '';\n  }\n\n  // Check if hostname is in the permitted list\n  var permittedHosts = [ 'www.pardot.com', 'www.hubspot.com' ];\n\n  function isPermittedHost(url) {\n    var hostname = getHostname(url);\n    for (var i = 0; i < permittedHosts.length; i++) {\n      if (hostname === permittedHosts[i]) return true;\n    }\n    return false;\n  }\n\n  // Build query string from collected pairs\n  function buildQueryString(pairs) {\n    return pairs.map(function(p) {\n      return encodeURIComponent(p.name) + '=' + encodeURIComponent(p.value);\n    }).join('&');\n  }\n\n  // Parse existing query param names from a URL base (no fragment) into a lookup object\n  function getExistingParamNames(base) {\n    var existing = {};\n    var qIdx = base.indexOf('?');\n    if (qIdx !== -1) {\n      var queryString = base.substring(qIdx + 1);\n      queryString.split('&').forEach(function(part) {\n        var eqIdx = part.indexOf('=');\n        var paramName = eqIdx !== -1 ? part.substring(0, eqIdx) : part;\n        if (paramName) {\n          existing[paramName] = true;\n          existing[decodeURIComponent(paramName)] = true;\n        }\n      });\n    }\n    return existing;\n  }\n\n  // Append pairs to a url, avoiding duplicates while preserving existing query params\n  function decorateUrl(url, pairs) {\n    if (!url || url === 'about:blank') return url;\n\n    // Only decorate URLs from permitted hosts\n    if (!isPermittedHost(url)) return url;\n\n    var hashIdx = url.indexOf('#');\n    var fragment = hashIdx !== -1 ? url.substring(hashIdx) : '';\n    var base     = hashIdx !== -1 ? url.substring(0, hashIdx) : url;\n\n    var existingParams = getExistingParamNames(base);\n    var filtered = pairs.filter(function(p) {\n      return !existingParams[p.name] && !existingParams[encodeURIComponent(p.name)];\n    });\n\n    if (!filtered.length) return url;\n    var qIdx = base.indexOf('?');\n    return base + (qIdx !== -1 ? '&' : '?') + buildQueryString(filtered) + fragment;\n  }\n\n  // Define element types and their url attributes to decorate\n  var elementTargets = [\n    { selector: 'iframe', attrs: ['src', 'data-src'] },\n    { selector: 'a',      attrs: ['href'] },\n    { selector: 'form',   attrs: ['action'] },\n    { selector: 'area',   attrs: ['href'] },\n    { selector: 'script', attrs: ['src'] },\n    { selector: 'img',    attrs: ['src', 'data-src'] }\n  ];\n\n  // Iterate each element type and decorate matching url attributes\n  for (var t = 0; t < elementTargets.length; t++) {\n    var target   = elementTargets[t];\n    var elements = document.querySelectorAll(target.selector);\n\n    for (var j = 0; j < elements.length; j++) {\n      var el = elements[j];\n\n      for (var k = 0; k < target.attrs.length; k++) {\n        var attr     = target.attrs[k];\n        var original = el.getAttribute(attr);\n        if (original) {\n          var updated = decorateUrl(original, decorationPairs);\n          if (updated !== original) el.setAttribute(attr, updated);\n        }\n      }\n    }\n  }\n\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1774386192184",
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "tagId": "17",
+                "name": "Parent decorate URL link with UTM names and values from cookies",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n(function() {\n\n  // Extract all utm_* cookies\n  var cookiePairs = [];\n  var allCookies = document.cookie.split(';');\n\n  for (var i = 0; i < allCookies.length; i++) {\n    var cookie = allCookies[i].trim();\n    var eqIdx = cookie.indexOf('=');\n    if (eqIdx === -1) continue;\n\n    var name  = decodeURIComponent(cookie.substring(0, eqIdx).trim());\n    var value = decodeURIComponent(cookie.substring(eqIdx + 1).trim());\n\n    if (name.indexOf('utm_') === 0) {\n      cookiePairs.push({ name: name, value: value });\n    }\n  }\n\n  if (cookiePairs.length === 0) return;\n\n  // Extract hostname from a url string\n  function getHostname(url) {\n    var match = url.match(/^https?:\\/\\/([^/?#]+)/i);\n    return match ? match[1].toLowerCase() : '';\n  }\n\n  // Check if hostname is in the permitted list\n  var permittedHosts = [ 'www.pardot.com', 'www.hubspot.com' ];\n\n  function isPermittedHost(url) {\n    var hostname = getHostname(url);\n    for (var i = 0; i < permittedHosts.length; i++) {\n      if (hostname === permittedHosts[i]) return true;\n    }\n    return false;\n  }\n\n  // Build query string from collected pairs\n  function buildQueryString(pairs) {\n    return pairs.map(function(p) {\n      return encodeURIComponent(p.name) + '=' + encodeURIComponent(p.value);\n    }).join('&');\n  }\n\n  // Parse existing query param names from a URL base (no fragment) into a lookup object\n  function getExistingParamNames(base) {\n    var existing = {};\n    var qIdx = base.indexOf('?');\n    if (qIdx !== -1) {\n      var queryString = base.substring(qIdx + 1);\n      queryString.split('&').forEach(function(part) {\n        var eqIdx = part.indexOf('=');\n        var paramName = eqIdx !== -1 ? part.substring(0, eqIdx) : part;\n        if (paramName) {\n          existing[paramName] = true;\n          existing[decodeURIComponent(paramName)] = true;\n        }\n      });\n    }\n    return existing;\n  }\n\n  // Append utm params to a url, avoiding duplicates while preserving existing query params\n  function decorateUrl(url, pairs) {\n    if (!url || url === 'about:blank') return url;\n\n    // Only decorate URLs from permitted hosts\n    if (!isPermittedHost(url)) return url;\n\n    var hashIdx = url.indexOf('#');\n    var fragment = hashIdx !== -1 ? url.substring(hashIdx) : '';\n    var base     = hashIdx !== -1 ? url.substring(0, hashIdx) : url;\n\n    var existingParams = getExistingParamNames(base);\n    var filtered = pairs.filter(function(p) {\n      return !existingParams[p.name] && !existingParams[encodeURIComponent(p.name)];\n    });\n\n    if (!filtered.length) return url;\n    var qIdx = base.indexOf('?');\n    return base + (qIdx !== -1 ? '&' : '?') + buildQueryString(filtered) + fragment;\n  }\n\n  // Define element types and their url attributes to decorate\n  var elementTargets = [\n    { selector: 'iframe', attrs: ['src', 'data-src'] },\n    { selector: 'a',      attrs: ['href'] },\n    { selector: 'form',   attrs: ['action'] },\n    { selector: 'area',   attrs: ['href'] },\n    { selector: 'script', attrs: ['src'] },\n    { selector: 'img',    attrs: ['src', 'data-src'] }\n  ];\n\n  // Iterate each element type and decorate matching url attributes\n  for (var t = 0; t < elementTargets.length; t++) {\n    var target   = elementTargets[t];\n    var elements = document.querySelectorAll(target.selector);\n\n    for (var j = 0; j < elements.length; j++) {\n      var el = elements[j];\n\n      for (var k = 0; k < target.attrs.length; k++) {\n        var attr     = target.attrs[k];\n        var original = el.getAttribute(attr);\n        if (original) {\n          var updated = decorateUrl(original, cookiePairs);\n          if (updated !== original) el.setAttribute(attr, updated);\n        }\n      }\n    }\n  }\n\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1774386174136",
+                "firingTriggerId": [
+                    "14"
+                ],
+                "teardownTag": [
+                    {
+                        "tagName": "Parent decorate URL link with _ga cookie name and value",
+                        "stopTeardownOnFailure": true
+                    }
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "tagId": "20",
+                "name": "iframe Write UTMs to session cookies",
+                "type": "cvt_247296172_8",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "gad_source",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "igshid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "li_fat_id",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_medium",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "dclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ttclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_creative_format",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ScCID",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ScCid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "persistentCookieExpires",
+                        "value": "365"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_content",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fbclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_campaign",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ttcid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "rootDomain",
+                        "value": "{{Page Hostname}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDuration",
+                        "value": "sessionCookie"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "twclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "epic",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "srsltid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_term",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_id",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "gclid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_source_platform",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_marketing_tactic",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "gbraid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "uriDecode",
+                        "value": "No"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdt_cid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "gclsrc",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "msclkid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "utm_source",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "wbraid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "cid",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1774381148878",
+                "parentFolderId": "3",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "tagId": "21",
+                "name": "iframe GA4 Initialization",
+                "type": "googtag",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "{{GA4 Measurement Stream ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "configSettingsVariable",
+                        "value": "{{iframe Google Tag Shared Configuration Settings}}"
+                    }
+                ],
+                "fingerprint": "1774386229397",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "setupTag": [
+                    {
+                        "tagName": "iframe Write UTMs to session cookies",
+                        "stopOnSetupFailure": true
+                    }
+                ],
+                "parentFolderId": "3",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "tagId": "23",
+                "name": "iframe populate form utm_campaign hidden field from cookie EXAMPLE",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\nfunction getCookie(name) {\n  var cookies = document.cookie.split(';');\n  for (var i = 0; i < cookies.length; i++) {\n    var cookie = cookies[i].trim();\n    var eqIdx = cookie.indexOf('=');\n    if (eqIdx === -1) continue;\n    var cookieName = decodeURIComponent(cookie.substring(0, eqIdx).trim());\n    if (cookieName === name) {\n      return decodeURIComponent(cookie.substring(eqIdx + 1).trim());\n    }\n  }\n  return null;\n}\ndocument.querySelector('input[data-sc-field-name=\"utm_campaign\"]').value = getCookie('utm_campaign');\n</script>\n"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1774391689212",
+                "parentFolderId": "3",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "triggerId": "14",
+                "name": "Parent target URL link hostname found on page",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Parent target URL link hostname found on page}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1774381148877",
+                "parentFolderId": "5"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "variableId": "7",
+                "name": "Root Domain",
+                "type": "cvt_247296172_6",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "inputValue",
+                        "value": "{{Page Hostname}}"
+                    }
+                ],
+                "fingerprint": "1774381148874",
+                "parentFolderId": "4",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE"
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "variableId": "10",
+                "name": "Parent Google Tag Shared Configuration Settings",
+                "type": "gtcs",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "configSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "debug_mode"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "send_page_view"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "false"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1774381148875",
+                "parentFolderId": "5"
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "variableId": "11",
+                "name": "GA4 Measurement Stream ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "G-12345678"
+                    }
+                ],
+                "fingerprint": "1774381148876",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "variableId": "13",
+                "name": "Parent target URL link hostname found on page",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  function hasPermittedHostOnPage(permittedHosts, elementTargets) {\n    function getHostname(url) {\n      var match = url.match(/^https?:\\/\\/([^/?#]+)/i);\n      return match ? match[1].toLowerCase() : '';\n    }\n    function isPermittedHost(url) {\n      var hostname = getHostname(url);\n      for (var i = 0; i < permittedHosts.length; i++) {\n        if (hostname === permittedHosts[i]) return true;\n      }\n      return false;\n    }\n    for (var t = 0; t < elementTargets.length; t++) {\n      var target = elementTargets[t];\n      var elements = document.querySelectorAll(target.selector);\n      for (var j = 0; j < elements.length; j++) {\n        var el = elements[j];\n        for (var k = 0; k < target.attrs.length; k++) {\n          var url = el.getAttribute(target.attrs[k]);\n          if (url && isPermittedHost(url)) return true;\n        }\n      }\n    }\n    return false;\n  }\n\n  var permittedHosts = [ 'www.pardot.com', 'www.hubspot.com' ];\n  \n  var elementTargets = [\n    { selector: 'iframe', attrs: ['src', 'data-src'] },\n    { selector: 'a',      attrs: ['href'] },\n    { selector: 'form',   attrs: ['action'] },\n    { selector: 'area',   attrs: ['href'] },\n    { selector: 'script', attrs: ['src'] },\n    { selector: 'img',    attrs: ['src', 'data-src'] }\n  ];\n\n  if (hasPermittedHostOnPage(permittedHosts, elementTargets)) {\n    // at least one permitted host was found on the page\n    return true;\n  }\n}"
+                    }
+                ],
+                "fingerprint": "1774386153810",
+                "parentFolderId": "5",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "variableId": "15",
+                "name": "iframe Google Analytics Anonymous Browser Client ID Value",
+                "type": "analytics_storage",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "dataField",
+                        "value": "client_id"
+                    }
+                ],
+                "fingerprint": "1774381148877",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "variableId": "18",
+                "name": "iframe obtain _ga client id from URL query string",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "QUERY"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "queryKey",
+                        "value": "_ga"
+                    }
+                ],
+                "fingerprint": "1774381148878",
+                "parentFolderId": "3",
+                "formatValue": {
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "{{iframe Google Analytics Anonymous Browser Client ID Value}}"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "{{iframe Google Analytics Anonymous Browser Client ID Value}}"
+                    },
+                    "convertTrueToValue": {
+                        "type": "TEMPLATE",
+                        "value": "{{iframe Google Analytics Anonymous Browser Client ID Value}}"
+                    },
+                    "convertFalseToValue": {
+                        "type": "TEMPLATE",
+                        "value": "{{iframe Google Analytics Anonymous Browser Client ID Value}}"
+                    }
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "variableId": "19",
+                "name": "iframe Google Tag Shared Configuration Settings",
+                "type": "gtcs",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "configSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "debug_mode"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "send_page_view"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "false"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "client_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{iframe obtain _ga client id from URL query string}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1774381148878",
+                "parentFolderId": "3"
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "folderId": "3",
+                "name": "iframe Site",
+                "fingerprint": "1774381148870"
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "folderId": "4",
+                "name": "Analytics",
+                "fingerprint": "1774381148871"
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "folderId": "5",
+                "name": "Parent Site",
+                "fingerprint": "1774381148872"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1774392855719",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004265998/containers/247296172/versions/0?apiLink=version",
+        "customTemplate": [
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "templateId": "6",
+                "name": "Get Root Domain",
+                "fingerprint": "1774381148872",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Get Root Domain\",\n  \"categories\": [\n    \"UTILITY\"\n  ],\n  \"description\": \"Extract Root domain from hostname or URL\",\n  \"containerContexts\": [\n    \"WEB\"\n  ],\n  \"brand\": {\n    \"displayName\": \"mbaersch\",\n    \"id\": \"github.com_mbaersch\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"inputValue\",\n    \"displayName\": \"Host or URL\",\n    \"simpleValueType\": true\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\n//input may be hostname or URL\nvar domain = data.inputValue||\"\";\nvar x = domain.indexOf('//');\n\n//protocol-relative URL or hostname only?\nif (x === 0) domain = 'https:'+domain;  \nelse if (x<0) domain = \"https://\"+domain;\n\n//try to extract from complete URL\nvar urlData = require(\"parseUrl\")(domain);\nif (urlData && urlData.hostname) domain = urlData.hostname;\n\n//delete path if still present due to incomplete input\ndomain = domain.split('/')[0];\n\n//extracting root domain as demonstrated here: \n//https://gist.github.com/RavenHursT/fe8a95a59109096ac1f8?permalink_comment_id=3869493#gistcomment-3869493\nconst elems = domain.split('.');\nconst iMax = elems.length - 1;\nconst isSecondLevel = elems.length >= 3 && (elems[iMax] + elems[iMax - 1]).length <= 5;\nreturn elems.splice( isSecondLevel ? -3 : -2 ).join('.');\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 24.8.2022, 17:38:42\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "mbaersch",
+                    "repository": "get-root-domain",
+                    "version": "d316df624417f3027b1de216572ab9fe6ebcf208",
+                    "signature": "ab1809f2060c063a86a1dfa4783093b76eb69b0e27ae13ac4e94e1cc67298eb0"
+                }
+            },
+            {
+                "accountId": "6004265998",
+                "containerId": "247296172",
+                "templateId": "8",
+                "name": "Write URL query strings 2 cookies",
+                "fingerprint": "1774381148874",
+                "templateData": "___INFO___\n\n{\n  \"type\": \"TAG\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Write URL query strings 2 cookies\",\n  \"brand\": {\n    \"id\": \"brand_dummy\",\n    \"displayName\": \"\",\n    \"thumbnail\": \"data:image/png;base64,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dFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA0LjQuMC1FeGl2MiI+CiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIKICAgIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgICB4bWxuczpHSU1QPSJodHRwOi8vd3d3LmdpbXAub3JnL3htcC8iCiAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgeG1wTU06RG9jdW1lbnRJRD0iZ2ltcDpkb2NpZDpnaW1wOmQ3NWZhM2M3LTAyMTgtNDdiOS05OTJhLTVmZGM3YmZmY2IyMiIKICAgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpkMDY3NDIyNC03YmI2LTQyOGItYmEyZi1iNmYwZTM0YmI0ZDciCiAgIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0NDMyZjhjZS0wMWQ5LTQ0MTktYTUwNS1kZTZjOGE3OGRiNjUiCiAgIGRjOkZvcm1hdD0iaW1hZ2UvcG5nIgogICBHSU1QOkFQST0iMi4wIgogICBHSU1QOlBsYXRmb3JtPSJXaW5kb3dzIgogICBHSU1QOlRpbWVTdGFtcD0iMTc3NDAyMzc0NDQ2ODk3MCIKICAgR0lNUDpWZXJzaW9uPSIyLjEwLjMyIgogICB0aWZmOk9yaWVudGF0aW9uPSIxIgogICB4bXA6Q3JlYXRvclRvb2w9IkdJTVAgMi4xMCIKICAgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNjowMzoyMFQxMToyMjoyMi0wNTowMCIKICAgeG1wOk1vZGlmeURhdGU9IjIwMjY6MDM6MjBUMTE6MjI6MjItMDU6MDAiPgogICA8eG1wTU06SGlzdG9yeT4KICAgIDxyZGY6U2VxPgogICAgIDxyZGY6bGkKICAgICAgc3RFdnQ6YWN0aW9uPSJzYXZlZCIKICAgICAgc3RFdnQ6Y2hhbmdlZD0iLyIKICAgICAgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDoxZDZhOTYwYy0zNDZiLTQyNjUtYmIyZS1jNWQ0ZDQ4NmFmYTMiCiAgICAgIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkdpbXAgMi4xMCAoV2luZG93cykiCiAgICAgIHN0RXZ0OndoZW49IjIwMjYtMDMtMjBUMTE6MjI6MjQiLz4KICAgIDwvcmRmOlNlcT4KICAgPC94bXBNTTpIaXN0b3J5PgogIDwvcmRmOkRlc2NyaXB0aW9uPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSJ3Ij8+mUcpKAAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+oDFBAWGPACpq0AACAASURBVHja7L15tCV3dd/72b+qM95z59t9e+5Wj1JrQhNIgDEGGzOZ2MbGcXCcl5UXx0mWEyf2e8/2CmtlcBzHK7HBsfEIxlPABoQZDRpAsrDQhGYhtYZW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\"\n  },\n  \"description\": \"Writes a default list of potential URL query stings and additional named URL query strings to like named browser cookies\",\n  \"containerContexts\": [\n    \"WEB\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"rootDomain\",\n    \"displayName\": \"rootDomain\",\n    \"macrosInSelect\": true,\n    \"selectItems\": [],\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"defaultValue\": \"{{Root Domain}}\"\n  },\n  {\n    \"type\": \"RADIO\",\n    \"name\": \"cookieDuration\",\n    \"displayName\": \"cookieDuration\",\n    \"radioItems\": [\n      {\n        \"value\": \"sessionCookie\",\n        \"displayValue\": \"sessionCookie\"\n      },\n      {\n        \"value\": \"persistentCookie\",\n        \"displayValue\": \"persistentCookie\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"defaultValue\": \"sessionCookie\",\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"persistentCookieExpires\",\n    \"displayName\": \"persistentCookieExpires in days (unused if sessionCookie)\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"POSITIVE_NUMBER\"\n      }\n    ],\n    \"defaultValue\": 365\n  },\n  {\n    \"type\": \"RADIO\",\n    \"name\": \"uriDecode\",\n    \"displayName\": \"uriDecode\",\n    \"radioItems\": [\n      {\n        \"value\": \"Yes\",\n        \"displayValue\": \"Yes\"\n      },\n      {\n        \"value\": \"No\",\n        \"displayValue\": \"No\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"defaultValue\": \"No\"\n  },\n  {\n    \"type\": \"SIMPLE_TABLE\",\n    \"name\": \"addUrlQueryString\",\n    \"displayName\": \"addUrlQueryString (optional / additional)\",\n    \"simpleTableColumns\": [\n      {\n        \"defaultValue\": \"\",\n        \"displayName\": \"\",\n        \"name\": \"addUrlQueryString\",\n        \"type\": \"TEXT\"\n      }\n    ],\n    \"valueValidators\": [\n      {\n        \"type\": \"REGEX\",\n        \"args\": [\n          \"^[a-zA-Z0-9._~-]{0,39}$\"\n        ]\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"cookieNameSuffix\",\n    \"displayName\": \"cookieNameSuffix (optional)\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"REGEX\",\n        \"args\": [\n          \"^[a-zA-Z0-9_]{0,9}$\"\n        ]\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"targetedUrlQueryString\",\n    \"displayName\": \"targetedUrlQueryString\",\n    \"groupStyle\": \"NO_ZIPPY\",\n    \"subParams\": [\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_source\",\n        \"checkboxText\": \"utm_source\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_medium\",\n        \"checkboxText\": \"utm_medium\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_campaign\",\n        \"checkboxText\": \"utm_campaign\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_content\",\n        \"checkboxText\": \"utm_content\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_term\",\n        \"checkboxText\": \"utm_term\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_id\",\n        \"checkboxText\": \"utm_id\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_source_platform\",\n        \"checkboxText\": \"utm_source_platform\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_creative_format\",\n        \"checkboxText\": \"utm_creative_format\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"utm_marketing_tactic\",\n        \"checkboxText\": \"utm_marketing_tactic\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"gclid\",\n        \"checkboxText\": \"gclid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"dclid\",\n        \"checkboxText\": \"dclid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"gclsrc\",\n        \"checkboxText\": \"gclsrc\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"gad_source\",\n        \"checkboxText\": \"gad_source\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"srsltid\",\n        \"checkboxText\": \"srsltid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"gbraid\",\n        \"checkboxText\": \"gbraid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"wbraid\",\n        \"checkboxText\": \"wbraid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"fbclid\",\n        \"checkboxText\": \"fbclid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"igshid\",\n        \"checkboxText\": \"igshid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"twclid\",\n        \"checkboxText\": \"twclid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"msclkid\",\n        \"checkboxText\": \"msclkid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"li_fat_id\",\n        \"checkboxText\": \"li_fat_id\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"rdt_cid\",\n        \"checkboxText\": \"rdt_cid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"ttclid\",\n        \"checkboxText\": \"ttclid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"ttcid\",\n        \"checkboxText\": \"ttcid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"ScCID\",\n        \"checkboxText\": \"ScCID\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"ScCid\",\n        \"checkboxText\": \"ScCid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"epic\",\n        \"checkboxText\": \"epic\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      },\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"cid\",\n        \"checkboxText\": \"cid\",\n        \"simpleValueType\": true,\n        \"defaultValue\": true\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst log = require('logToConsole');\nconst getUrl = require('getUrl');\nconst setCookie = require('setCookie');\nconst getCookieValues = require('getCookieValues');\nconst makeString = require('makeString');\nconst decodeUriComponent = require('decodeUriComponent');\n\nconst rootDomain = data.rootDomain;\nconst cookieDuration = data.cookieDuration;\nconst cookieNameSuffix = data.cookieNameSuffix || '';\nconst persistentCookieExpires = data.persistentCookieExpires;\nconst uriDecode = data.uriDecode;\nconst addUrlQueryString = data.addUrlQueryString || '';\n\n// Set cookie lifespan \nif (cookieDuration == 'persistentCookie') {   var cookieOptions = { domain: rootDomain, path: '/', 'max-age': 60 * 60 * 24 * persistentCookieExpires }; } else { var cookieOptions = { domain: rootDomain, path: '/' }; }\n\n// Convert the comma-separated string to an array\nvar additionalParams = [];\nif (addUrlQueryString) {\n  for (var i = 0; i < addUrlQueryString.length; i++) {\n    var val = addUrlQueryString[i].addUrlQueryString;\n    if (val) { additionalParams.push(val); }\n  }\n}\n\n// Define all the checkbox field names in group\nvar targetedUrlQueryString = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'utm_id', 'utm_source_platform', 'utm_creative_format', 'utm_marketing_tactic', 'gclid', 'dclid', 'gclsrc', 'fbclid', 'igshid', 'twclid', 'msclkid', 'li_fat_id', 'rdt_cid', 'srsltid', 'epic', 'ScCID', 'ScCid', 'ttclid', 'ttcid', 'gad_source', 'gbraid', 'wbraid', 'cid'] ;\n\n// Filter to only the checked ones\nvar targetedParamsArray = [];\nfor (var i = 0; i < targetedUrlQueryString.length; i++) {\n  if (data[targetedUrlQueryString[i]] === true) {\n    targetedParamsArray.push(targetedUrlQueryString[i]);\n  }\n}\n\n// Allowlist of query parameter names to capture as cookies\nvar trackedParams = targetedParamsArray.concat(additionalParams); \n\n// Get the full query string from the current URL\nvar rawQueryString = getUrl('query');\nif (uriDecode == 'Yes') { var queryString = decodeUriComponent(rawQueryString); } else { var queryString = rawQueryString; }\n\n// Only proceed if there are query parameters\nif (queryString) {\n    // Strip the leading '?' if present\n    var cleanQuery = queryString.charAt(0) === '?'\n        ? queryString.substring(1)\n        : queryString;\n\n    // Split into individual key=value pairs\n    var pairs = cleanQuery.split('&');\n\n    for (var i = 0; i < pairs.length; i++) {\n        var pair = pairs[i].split('=');\n\n        // Make sure we have both a key and a value\n        if (pair.length === 2 && pair[0] && pair[1]) {\n            var cookieName  = pair[0];\n            var cookieValue = pair[1];\n\n            // Only process params that exist in the allowlist\n            var isTracked = false;\n            for (var j = 0; j < trackedParams.length; j++) {\n                if (trackedParams[j] === cookieName) {\n                    isTracked = true;\n                    break;\n                }\n            }\n\n            if (isTracked) {\n                // Only write the cookie if it doesn't already exist\n                var existingCookie = getCookieValues(cookieName);\n                if (!existingCookie || existingCookie.length === 0) {\n                    setCookie(cookieName + cookieNameSuffix, cookieValue, cookieOptions);\n                }\n            }\n        }\n    }\n}\n\ndata.gtmOnSuccess();\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"get_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"cookieAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"set_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedCookies\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"get_url\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"urlParts\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        },\n        {\n          \"key\": \"queriesAllowed\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"logging\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"environments\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"debug\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\n\n\n\n"
+            }
+        ]
+    }
+}
