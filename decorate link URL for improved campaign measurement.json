@@ -2,21 +2,21 @@
     "exportFormatVersion": 2,
     "exportTime": "2026-03-24 22:54:15",
     "containerVersion": {
-        "path": "accounts/6004265998/containers/247296172/versions/0",
-        "accountId": "6004265998",
-        "containerId": "247296172",
+        "path": "accounts/9999999999/containers/999999999/versions/0",
+        "accountId": "9999999999",
+        "containerId": "999999999",
         "containerVersionId": "0",
         "container": {
-            "path": "accounts/6004265998/containers/247296172",
-            "accountId": "6004265998",
-            "containerId": "247296172",
-            "name": "00 decorate link URL for improved campaign measurement",
-            "publicId": "GTM-MKQT74WH",
+            "path": "accounts/9999999999/containers/999999999",
+            "accountId": "9999999999",
+            "containerId": "999999999",
+            "name": "decorate link URL for improved campaign measurement",
+            "publicId": "GTM-ABCDEFGH",
             "usageContext": [
                 "WEB"
             ],
             "fingerprint": "1774386277718",
-            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004265998/containers/247296172/workspaces?apiLink=container",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/9999999999/containers/999999999/workspaces?apiLink=container",
             "features": {
                 "supportUserPermissions": true,
                 "supportEnvironments": true,
@@ -34,16 +34,16 @@
                 "supportTransformations": false
             },
             "tagIds": [
-                "GTM-MKQT74WH"
+                "GTM-ABCDEFGH"
             ]
         },
         "tag": [
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "tagId": "9",
                 "name": "Parent write UTMs to session cookies",
-                "type": "cvt_247296172_8",
+                "type": "cvt_999999999_8",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -217,8 +217,8 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "tagId": "12",
                 "name": "Parent GA4 Initialization",
                 "type": "googtag",
@@ -254,8 +254,8 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "tagId": "16",
                 "name": "Parent decorate URL link with _ga cookie name and value",
                 "type": "html",
@@ -282,8 +282,8 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "tagId": "17",
                 "name": "Parent decorate URL link with UTM names and values from cookies",
                 "type": "html",
@@ -319,11 +319,11 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "tagId": "20",
                 "name": "iframe Write UTMs to session cookies",
-                "type": "cvt_247296172_8",
+                "type": "cvt_999999999_8",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -497,8 +497,8 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "tagId": "21",
                 "name": "iframe GA4 Initialization",
                 "type": "googtag",
@@ -534,8 +534,8 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "tagId": "23",
                 "name": "iframe populate form utm_campaign hidden field from cookie EXAMPLE",
                 "type": "html",
@@ -564,8 +564,8 @@
         ],
         "trigger": [
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "triggerId": "14",
                 "name": "Parent target URL link hostname found on page",
                 "type": "DOM_READY",
@@ -592,11 +592,11 @@
         ],
         "variable": [
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "variableId": "7",
                 "name": "Root Domain",
-                "type": "cvt_247296172_6",
+                "type": "cvt_999999999_6",
                 "parameter": [
                     {
                         "type": "TEMPLATE",
@@ -611,8 +611,8 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "variableId": "10",
                 "name": "Parent Google Tag Shared Configuration Settings",
                 "type": "gtcs",
@@ -658,8 +658,8 @@
                 "parentFolderId": "5"
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "variableId": "11",
                 "name": "GA4 Measurement Stream ID",
                 "type": "c",
@@ -675,8 +675,8 @@
                 "formatValue": {}
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "variableId": "13",
                 "name": "Parent target URL link hostname found on page",
                 "type": "jsm",
@@ -692,8 +692,8 @@
                 "formatValue": {}
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "variableId": "15",
                 "name": "iframe Google Analytics Anonymous Browser Client ID Value",
                 "type": "analytics_storage",
@@ -709,8 +709,8 @@
                 "formatValue": {}
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "variableId": "18",
                 "name": "iframe obtain _ga client id from URL query string",
                 "type": "u",
@@ -748,8 +748,8 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "variableId": "19",
                 "name": "iframe Google Tag Shared Configuration Settings",
                 "type": "gtcs",
@@ -812,22 +812,22 @@
         ],
         "folder": [
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "folderId": "3",
                 "name": "iframe Site",
                 "fingerprint": "1774381148870"
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "folderId": "4",
                 "name": "Analytics",
                 "fingerprint": "1774381148871"
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "folderId": "5",
                 "name": "Parent Site",
                 "fingerprint": "1774381148872"
@@ -835,42 +835,42 @@
         ],
         "builtInVariable": [
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "type": "PAGE_URL",
                 "name": "Page URL"
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "type": "PAGE_HOSTNAME",
                 "name": "Page Hostname"
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "type": "PAGE_PATH",
                 "name": "Page Path"
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "type": "REFERRER",
                 "name": "Referrer"
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "type": "EVENT",
                 "name": "Event"
             }
         ],
         "fingerprint": "1774392855719",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004265998/containers/247296172/versions/0?apiLink=version",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/9999999999/containers/999999999/versions/0?apiLink=version",
         "customTemplate": [
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "templateId": "6",
                 "name": "Get Root Domain",
                 "fingerprint": "1774381148872",
@@ -884,8 +884,8 @@
                 }
             },
             {
-                "accountId": "6004265998",
-                "containerId": "247296172",
+                "accountId": "9999999999",
+                "containerId": "999999999",
                 "templateId": "8",
                 "name": "Write URL query strings 2 cookies",
                 "fingerprint": "1774381148874",
